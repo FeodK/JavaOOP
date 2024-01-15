@@ -6,8 +6,8 @@ public class TeacherView implements UserView<Teacher>{
 
     @Override
     public void sendOnConsole(List<Teacher> list) {
-        for (Teacher student : list) {
-            System.out.println(student);
+        for (Teacher teacher : list) {
+            System.out.println(teacher);
         }
     }
     
